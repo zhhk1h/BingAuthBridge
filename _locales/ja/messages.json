@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge (Bing認証ブリッジ)"
+  },
+  "extDescription": {
+    "message": "'bing.com' と 'microsoft.com' のCookieをワンクリックでエクスポート/インポート。安全なオープンソース。"
+  },
+  "popupTitle": {
+    "message": "Bing ログイン移行"
+  },
+  "exportButton": {
+    "message": "1. クッキーをエクスポート"
+  },
+  "importButton": {
+    "message": "2. クッキーをインポート"
+  },
+  "linkHelp": {
+    "message": "ヘルプ / GitHub (オープンソース)"
+  },
+  "statusExporting": {
+    "message": "エクスポート中..."
+  },
+  "statusImporting": {
+    "message": "インポート中..."
+  },
+  "statusExportSuccess": {
+    "message": "エクスポートに成功しました！"
+  },
+  "statusImportSuccess": {
+    "message": "$successes$ 件のクッキーをインポートしました！Bing のページを更新してください。",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "インポート結果: $successes$ 件成功, $failures$ 件失敗。",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "エラー：関連するクッキーが見つかりません。"
+  },
+  "errorFileFormatArray": {
+    "message": "無効なファイル形式です。配列ではありません。"
+  },
+  "errorFileEmpty": {
+    "message": "ファイルの内容が空です。"
+  },
+  "errorFileInvalid": {
+    "message": "無効なファイル内容です。必要なフィールドがありません。"
+  },
+  "errorFileRead": {
+    "message": "ファイルの読み取りに失敗しました: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "エクスポートに失敗しました: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "インポートに失敗しました: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "ダウンロードに失敗しました: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

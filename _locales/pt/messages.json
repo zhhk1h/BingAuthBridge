@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge"
+  },
+  "extDescription": {
+    "message": "Exporte/importe com um clique os cookies de 'bing.com' e 'microsoft.com'. Seguro e de código aberto."
+  },
+  "popupTitle": {
+    "message": "Migrador de Sessão Bing"
+  },
+  "exportButton": {
+    "message": "1. Exportar Cookies"
+  },
+  "importButton": {
+    "message": "2. Importar Cookies"
+  },
+  "linkHelp": {
+    "message": "Ajuda / GitHub (Código Aberto)"
+  },
+  "statusExporting": {
+    "message": "Exportando..."
+  },
+  "statusImporting": {
+    "message": "Importando..."
+  },
+  "statusExportSuccess": {
+    "message": "Exportação bem-sucedida!"
+  },
+  "statusImportSuccess": {
+    "message": "$successes$ cookies importados! Por favor, atualize a página do Bing.",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "Importação: $successes$ com sucesso, $failures$ falharam.",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "Erro: Nenhum cookie relevante encontrado."
+  },
+  "errorFileFormatArray": {
+    "message": "Formato de arquivo inválido. Não é um array."
+  },
+  "errorFileEmpty": {
+    "message": "O conteúdo do arquivo está vazio."
+  },
+  "errorFileInvalid": {
+    "message": "Conteúdo do arquivo inválido. Faltando campos obrigatórios."
+  },
+  "errorFileRead": {
+    "message": "Falha ao ler o arquivo: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "Falha na exportação: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "Falha na importação: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "Falha no download: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

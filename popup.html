@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bing Auth Bridge</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      width: 250px;
+      padding: 10px;
+    }
+    h3 {
+      margin-top: 0;
+      text-align: center;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      background-color: #f5f5f5;
+    }
+    button:hover:not(:disabled) {
+      background-color: #e9e9e9;
+    }
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+    #export-btn {
+      background-color: #0078d4;
+      color: white;
+      border: none;
+    }
+    #import-btn {
+      background-color: #107c10;
+      color: white;
+      border: none;
+    }
+    #status {
+      text-align: center;
+      font-size: 12px;
+      color: green;
+      min-height: 40px;
+      line-height: 1.4;
+      white-space: normal;          /* ✅ 改为允许换行 */
+      word-break: break-word;
+      padding: 5px;
+      width: 100%;
+      max-height: 80px;
+      overflow-y: auto;             /* ✅ 允许滚动 */
+    }
+    #status.error {
+      color: #d83b01;
+    }
+    #cookie-importer {
+      display: none;
+    }
+    /* ⚡ 新增样式：帮助链接区域 */
+    #help-links {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 10px;
+    }
+    #help-links a {
+      color: #0078d4;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h3 id="popup-title"></h3>
+  
+  <button id="export-btn"></button>
+  <button id="import-btn"></button>
+  
+
+  <input type="file" id="cookie-importer" accept=".json,text/plain" aria-label="导入 Cookies 文件">
+  <div id="status"></div>
+  
+  <div id="help-links">
+    <a href="https://github.com/zhhk1h/BingAuthBridge#readme" target="_blank">帮助 & 安全承诺</a>
+    |
+    <a href="https://github.com/zhhk1h/BingAuthBridge" target="_blank">GitHub</a>
+  </div>
+
+  <script src="popup.js" defer></script>
+</body>
+</html>

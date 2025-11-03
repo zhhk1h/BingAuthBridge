@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge"
+  },
+  "extDescription": {
+    "message": "Exporte/importe con un solo clic las cookies de 'bing.com' y 'microsoft.com'. Seguro y de código abierto."
+  },
+  "popupTitle": {
+    "message": "Migrador de sesión de Bing"
+  },
+  "exportButton": {
+    "message": "1. Exportar Cookies"
+  },
+  "importButton": {
+    "message": "2. Importar Cookies"
+  },
+  "linkHelp": {
+    "message": "Ayuda / GitHub (Código Abierto)"
+  },
+  "statusExporting": {
+    "message": "Exportando..."
+  },
+  "statusImporting": {
+    "message": "Importando..."
+  },
+  "statusExportSuccess": {
+    "message": "¡Exportación exitosa!"
+  },
+  "statusImportSuccess": {
+    "message": "¡Se importaron $successes$ cookies! Por favor, actualice la página de Bing.",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "Importación: $successes$ exitosas, $failures$ fallidas.",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "Error: No se encontraron cookies relevantes."
+  },
+  "errorFileFormatArray": {
+    "message": "Formato de archivo inválido. No es un array."
+  },
+  "errorFileEmpty": {
+    "message": "El contenido del archivo está vacío."
+  },
+  "errorFileInvalid": {
+    "message": "Contenido de archivo inválido. Faltan campos necesarios."
+  },
+  "errorFileRead": {
+    "message": "Error al leer el archivo: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "Error de exportación: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "Error de importación: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "Error de descarga: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

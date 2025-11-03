@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge"
+  },
+  "extDescription": {
+    "message": "Export/import en un clic des cookies 'bing.com' et 'microsoft.com'. Sécurisé et open-source."
+  },
+  "popupTitle": {
+    "message": "Migrateur de session Bing"
+  },
+  "exportButton": {
+    "message": "1. Exporter les Cookies"
+  },
+  "importButton": {
+    "message": "2. Importer les Cookies"
+  },
+  "linkHelp": {
+    "message": "Aide / GitHub (Open-Source)"
+  },
+  "statusExporting": {
+    "message": "Exportation..."
+  },
+  "statusImporting": {
+    "message": "Importation..."
+  },
+  "statusExportSuccess": {
+    "message": "Exportation réussie !"
+  },
+  "statusImportSuccess": {
+    "message": "$successes$ cookies importés ! Veuillez actualiser la page Bing.",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "Import: $successes$ réussis, $failures$ échoués.",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "Erreur : Aucun cookie pertinent trouvé."
+  },
+  "errorFileFormatArray": {
+    "message": "Format de fichier invalide. Ce n'est pas un tableau."
+  },
+  "errorFileEmpty": {
+    "message": "Le contenu du fichier est vide."
+  },
+  "errorFileInvalid": {
+    "message": "Contenu de fichier invalide. Champs requis manquants."
+  },
+  "errorFileRead": {
+    "message": "Échec de la lecture du fichier : $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "Échec de l'exportation : $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "Échec de l'importation : $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "Échec du téléchargement : $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

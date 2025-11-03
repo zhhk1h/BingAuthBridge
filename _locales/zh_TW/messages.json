@@ -1,0 +1,70 @@
+{
+  "extName": { 
+    "message": "Bing Auth Bridge (必應登入遷移助手)"
+  },
+  "extDescription": {
+    "message": "一鍵匯出/匯入 'bing.com' 和 'microsoft.com' 的 Cookies，安全、開源。"
+  },
+  "popupTitle": {
+    "message": "必應登入遷移助手"
+  },
+  "exportButton": {
+    "message": "1. 匯出 Cookies"
+  },
+  "importButton": {
+    "message": "2. 匯入 Cookies"
+  },
+  "linkHelp": {
+    "message": "幫助 / GitHub (開源)"
+  },
+  "statusExporting": {
+    "message": "正在匯出..."
+  },
+  "statusImporting": {
+    "message": "正在匯入..."
+  },
+  "statusExportSuccess": {
+    "message": "匯出成功！"
+  },
+  "statusImportSuccess": {
+    "message": "成功匯入 $successes$ 條！請刷新 Bing 頁面。",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "匯入：$successes$ 成功, $failures$ 失敗。",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "錯誤：未找到相關 Cookies。"
+  },
+  "errorFileFormatArray": {
+    "message": "檔案格式無效，不是一個陣列。"
+  },
+  "errorFileEmpty": {
+    "message": "檔案內容為空。"
+  },
+  "errorFileInvalid": {
+    "message": "檔案內容無效，缺少必要欄位。"
+  },
+  "errorFileRead": {
+    "message": "讀取檔案失敗: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "匯出失敗: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "匯入失敗: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "下載失敗：$message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 3,
+  "name": "Bing Auth Bridge (必应登录迁移助手)",
+  "version": "1.0",
+  "description": "一键导出/导入 'bing.com' 和 'microsoft.com' 的Cookies，安全、开源。",
+
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+
+  "action": {
+
+    "default_popup": "popup.html",
+    "default_title": "__MSG_extName__"
+  },
+
+  "default_locale": "zh_CN",
+  "permissions": [
+    "cookies",
+    "downloads"
+  ],
+
+
+  "host_permissions": [
+    "*://*.bing.com/*",
+    "*://*.microsoft.com/*",
+    "*://*.live.com/*"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "extName": { 
+    "message": "Bing Auth Bridge (必应登录迁移助手)"
+  },
+  "extDescription": {
+    "message": "一键导出/导入 'bing.com' 和 'microsoft.com' 的Cookies，安全、开源。"
+  },
+  "popupTitle": {
+    "message": "必应登录迁移助手"
+  },
+  "exportButton": {
+    "message": "1. 导出 Cookies"
+  },
+  "importButton": {
+    "message": "2. 导入 Cookies"
+  },
+  "linkHelp": {
+    "message": "帮助 / GitHub (开源)"
+  },
+  "statusExporting": {
+    "message": "正在导出..."
+  },
+  "statusImporting": {
+    "message": "正在导入..."
+  },
+  "statusExportSuccess": {
+    "message": "导出成功！"
+  },
+  "statusImportSuccess": {
+    "message": "导入成功 $successes$ 条！请刷新必应页面。",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "导入：$successes$ 成功, $failures$ 失败。",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "错误：未找到相关 Cookies。"
+  },
+  "errorFileFormatArray": {
+    "message": "文件格式无效，不是一个数组。"
+  },
+  "errorFileEmpty": {
+    "message": "文件内容为空。"
+  },
+  "errorFileInvalid": {
+    "message": "文件内容无效，缺少必要字段。"
+  },
+  "errorFileRead": {
+    "message": "读取文件失败: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "导出失败: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "导入失败: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "下载失败：$message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

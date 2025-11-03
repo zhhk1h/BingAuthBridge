@@ -1,0 +1,70 @@
+{
+  "extName": { 
+    "message": "Bing Auth Bridge"
+  },
+  "extDescription": {
+    "message": "Експорт/імпорт файлів cookie 'bing.com' та 'microsoft.com' одним клацанням миші. Безпечно та з відкритим кодом."
+  },
+  "popupTitle": {
+    "message": "Мігратор сесії Bing"
+  },
+  "exportButton": {
+    "message": "1. Експортувати Cookies"
+  },
+  "importButton": {
+    "message": "2. Імпортувати Cookies"
+  },
+  "linkHelp": {
+    "message": "Допомога / GitHub (Відкритий код)"
+  },
+  "statusExporting": {
+    "message": "Експорт..."
+  },
+  "statusImporting": {
+    "message": "Імпорт..."
+  },
+  "statusExportSuccess": {
+    "message": "Експорт успішний!"
+  },
+  "statusImportSuccess": {
+    "message": "Імпортовано $successes$ cookie! Будь ласка, оновіть сторінку Bing.",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "Імпорт: $successes$ успішно, $failures$ з помилкою.",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "Помилка: Відповідні файли cookie не знайдено."
+  },
+  "errorFileFormatArray": {
+    "message": "Неприпустимий формат файлу. Це не масив."
+  },
+  "errorFileEmpty": {
+    "message": "Вміст файлу порожній."
+  },
+  "errorFileInvalid": {
+    "message": "Неприпустимий вміст файлу. Відсутні необхідні поля."
+  },
+  "errorFileRead": {
+    "message": "Не вдалося прочитати файл: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "Помилка експорту: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "Помилка імпорту: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "Помилка завантаження: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

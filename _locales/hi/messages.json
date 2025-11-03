@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge (बिंग ऑथ ब्रिज)"
+  },
+  "extDescription": {
+    "message": "'bing.com' और 'microsoft.com' कुकीज़ का एक-क्लिक निर्यात/आयात। सुरक्षित और ओपन-सोर्स।"
+  },
+  "popupTitle": {
+    "message": "बिंग लॉगिन माइग्रेटर"
+  },
+  "exportButton": {
+    "message": "1. कुकीज़ निर्यात करें"
+  },
+  "importButton": {
+    "message": "2. कुकीज़ आयात करें"
+  },
+  "linkHelp": {
+    "message": "सहायता / GitHub (ओपन-सोर्स)"
+  },
+  "statusExporting": {
+    "message": "निर्यात हो रहा है..."
+  },
+  "statusImporting": {
+    "message": "आयात हो रहा है..."
+  },
+  "statusExportSuccess": {
+    "message": "निर्यात सफल!"
+  },
+  "statusImportSuccess": {
+    "message": "$successes$ कुकीज़ आयात की गईं! कृपया बिंग पेज को रीफ्रेश करें।",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "आयात: $successes$ सफल, $failures$ विफल।",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "त्रुटि: कोई प्रासंगिक कुकीज़ नहीं मिलीं।"
+  },
+  "errorFileFormatArray": {
+    "message": "अमान्य फ़ाइल स्वरूप। यह एक ऐरे नहीं है।"
+  },
+  "errorFileEmpty": {
+    "message": "फ़ाइल की सामग्री खाली है।"
+  },
+  "errorFileInvalid": {
+    "message": "अमान्य फ़ाइल सामग्री। आवश्यक फ़ील्ड गायब हैं।"
+  },
+  "errorFileRead": {
+    "message": "फ़ाइल पढ़ने में विफल: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "निर्यात विफल: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "आयात विफल: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "डाउनलोड विफल: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

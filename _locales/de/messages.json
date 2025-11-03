@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge"
+  },
+  "extDescription": {
+    "message": "Ein-Klick-Export/Import von 'bing.com' und 'microsoft.com' Cookies. Sicher und Open-Source."
+  },
+  "popupTitle": {
+    "message": "Bing-Anmelde-Migration"
+  },
+  "exportButton": {
+    "message": "1. Cookies exportieren"
+  },
+  "importButton": {
+    "message": "2. Cookies importieren"
+  },
+  "linkHelp": {
+    "message": "Hilfe / GitHub (Open-Source)"
+  },
+  "statusExporting": {
+    "message": "Exportiere..."
+  },
+  "statusImporting": {
+    "message": "Importiere..."
+  },
+  "statusExportSuccess": {
+    "message": "Export erfolgreich!"
+  },
+  "statusImportSuccess": {
+    "message": "$successes$ Cookies importiert! Bitte laden Sie die Bing-Seite neu.",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "Import: $successes$ erfolgreich, $failures$ fehlgeschlagen.",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "Fehler: Keine relevanten Cookies gefunden."
+  },
+  "errorFileFormatArray": {
+    "message": "Ungültiges Dateiformat. Es ist kein Array."
+  },
+  "errorFileEmpty": {
+    "message": "Dateiinhalt ist leer."
+  },
+  "errorFileInvalid": {
+    "message": "Ungültiger Dateiinhalt. Erforderliche Felder fehlen."
+  },
+  "errorFileRead": {
+    "message": "Fehler beim Lesen der Datei: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "Export fehlgeschlagen: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "Import fehlgeschlagen: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "Download fehlgeschlagen: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

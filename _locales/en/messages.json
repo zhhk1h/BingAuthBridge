@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge"
+  },
+  "extDescription": {
+    "message": "One-click export/import of 'bing.com' and 'microsoft.com' cookies. Secure and open-source."
+  },
+  "popupTitle": {
+    "message": "Bing Login Migrator"
+  },
+  "exportButton": {
+    "message": "1. Export Cookies"
+  },
+  "importButton": {
+    "message": "2. Import Cookies"
+  },
+  "linkHelp": {
+    "message": "Help / GitHub (Open-Source)"
+  },
+  "statusExporting": {
+    "message": "Exporting..."
+  },
+  "statusImporting": {
+    "message": "Importing..."
+  },
+  "statusExportSuccess": {
+    "message": "Export successful!"
+  },
+  "statusImportSuccess": {
+    "message": "Imported $successes$ cookies! Please refresh the Bing page.",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "Import: $successes$ succeeded, $failures$ failed.",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "Error: No relevant cookies found."
+  },
+  "errorFileFormatArray": {
+    "message": "Invalid file format. Not an array."
+  },
+  "errorFileEmpty": {
+    "message": "File content is empty."
+  },
+  "errorFileInvalid": {
+    "message": "Invalid file content. Missing required fields."
+  },
+  "errorFileRead": {
+    "message": "Failed to read file: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "Export failed: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "Import failed: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "Download failed: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}

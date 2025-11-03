@@ -1,0 +1,70 @@
+{
+  "extName": {
+    "message": "Bing Auth Bridge (جسر مصادقة Bing)"
+  },
+  "extDescription": {
+    "message": "تصدير/استيراد ملفات تعريف الارتباط لموقعي 'bing.com' و 'microsoft.com' بنقرة واحدة. آمن ومفتوح المصدر."
+  },
+  "popupTitle": {
+    "message": "أداة نقل تسجيل Bing"
+  },
+  "exportButton": {
+    "message": "1. تصدير ملفات تعريف الارتباط"
+  },
+  "importButton": {
+    "message": "2. استيراد ملفات تعريف الارتباط"
+  },
+  "linkHelp": {
+    "message": "مساعدة / GitHub (مفتوح المصدر)"
+  },
+  "statusExporting": {
+    "message": "جاري التصدير..."
+  },
+  "statusImporting": {
+    "message": "جاري الاستيراد..."
+  },
+  "statusExportSuccess": {
+    "message": "تم التصدير بنجاح!"
+  },
+  "statusImportSuccess": {
+    "message": "تم استيراد $successes$ ملف تعريف ارتباط! يرجى تحديث صفحة Bing.",
+    "placeholders": {
+      "successes": { "content": "$1" }
+    }
+  },
+  "statusImportPartial": {
+    "message": "الاستيراد: $successes$ نجح, $failures$ فشل.",
+    "placeholders": {
+      "successes": { "content": "$1" },
+      "failures": { "content": "$2" }
+    }
+  },
+  "errorNoCookies": {
+    "message": "خطأ: لم يتم العثور على ملفات تعريف ارتباط ذات صلة."
+  },
+  "errorFileFormatArray": {
+    "message": "تنسيق ملف غير صالح. إنه ليس مصفوفة."
+  },
+  "errorFileEmpty": {
+    "message": "محتوى الملف فارغ."
+  },
+  "errorFileInvalid": {
+    "message": "محتوى ملف غير صالح. الحقول المطلوبة مفقودة."
+  },
+  "errorFileRead": {
+    "message": "فشل قراءة الملف: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorExportFailed": {
+    "message": "فشل التصدير: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorImportFailed": {
+    "message": "فشل الاستيراد: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  },
+  "errorDownloadFailed": {
+    "message": "فشل التنزيل: $message$",
+    "placeholders": { "message": { "content": "$1" } }
+  }
+}
