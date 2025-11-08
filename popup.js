@@ -53,12 +53,38 @@ async function handleExport() {
     const cookieArrays = await Promise.all(cookiePromises);
     allCookies = [].concat(...cookieArrays);
 
+    // ------------------- 🚀 [修改] -------------------
+    // 在序列化之前，清理 cookie 值以保持兼容
+    
+    allCookies.forEach(cookie => {
+        switch (cookie.sameSite) {
+            case "unspecified":
+                // "unspecified" (Chrome 默认) 映射为 "Lax"
+                cookie.sameSite = "Lax";
+                break;
+            case "no_restriction":
+                // "no_restriction" (Chrome 用于 "None" 的值) 映射为 "None"
+                cookie.sameSite = "None";
+                break;
+            case "Strict":
+            case "Lax":
+            case "None":
+                // 值已经有效，无需操作
+                break;
+            default:
+                // 捕获空字符串 "" 或其他无效值，"Lax" 是最安全的默认值
+                cookie.sameSite = "Lax";
+                break;
+        }
+    });
+    // -------------------------------------------------
+
+
     if (allCookies.length === 0) {
       // 【i18n】 替换硬编码字符串
       throw new Error(chrome.i18n.getMessage("errorNoCookies"));
     }
-
-    console.log(`成功找到 ${allCookies.length} 条 Cookies。`);
+    // [修改] 更新日志消息
     const jsonContent = JSON.stringify(allCookies, null, 2);
     downloadJson(jsonContent, "bing_cookies.json");
     // 【i18n】 替换硬编码字符串
@@ -76,6 +102,8 @@ async function handleExport() {
     }, 2000);
   }
 }
+
+
 
 function getCookiesForDomain(domain) {
   return new Promise((resolve, reject) => {
